@@ -38,3 +38,16 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             build
+      
+      - name: Show build output
+        run: |
+          echo "=== Build directory ==="
+          find build -maxdepth 3
+      
+          echo
+          echo "=== Looking for .app ==="
+          find . -name "*.app"
+      
+          echo
+          echo "=== Looking for .ipa ==="
+          find . -name "*.ipa"
