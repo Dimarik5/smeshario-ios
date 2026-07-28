@@ -26,3 +26,5 @@ jobs:
       - name: Find linker flag
         run: |
           grep -R -- "-lBox2D" .
+          grep -R "OTHER_LDFLAGS" .
+          grep -R "LIBRARY_SEARCH_PATHS" .
