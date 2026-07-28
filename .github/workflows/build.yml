@@ -38,6 +38,10 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             build
+      
+      - name: Copy font
+        run: |
+          cp Resources/Fonts/Smeshariki2007Fixed-Regular.ttf build/Release-iphoneos/smeshario_demo_for_ios.app/
 
       - name: Create IPA
         run: |
