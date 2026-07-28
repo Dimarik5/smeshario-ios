@@ -316,12 +316,12 @@
 		0F812EB2122F9D160032040B /* ITunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ITunesArtwork.png; path = Resources/ITunesArtwork.png; sourceTree = "<group>"; };
 		0FAF526716133F570039137E /* CPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPoint.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Смешарио_(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Смешарио_(iOS).app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Смешарио.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Смешарио.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* Смешарио_(iOS)_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Смешарио_(iOS)_Prefix.pch; sourceTree = "<group>"; };
-		3DA0F3A719FE38140080FDC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Смешарио_(iOS)/Images.xcassets; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Смешарио_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Смешарио_Prefix.pch; sourceTree = "<group>"; };
+		3DA0F3A719FE38140080FDC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Смешарио/Images.xcassets; sourceTree = "<group>"; };
 		8B0D30FC183661D0005202BD /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Box2D.h; path = Classes/Box2D/Box2D.h; sourceTree = "<group>"; };
 		8B0D3109183661E5005202BD /* libBox2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBox2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0D312E18366234005202BD /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
@@ -426,7 +426,7 @@
 		8BDA7B87190BC31F0023BD01 /* CJoystickGamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJoystickGamePad.h; sourceTree = "<group>"; };
 		8BDA7B88190BC31F0023BD01 /* CJoystickGamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJoystickGamePad.m; sourceTree = "<group>"; };
 		8BDA7B90191101F30023BD01 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		8D1107310486CEB800E47090 /* Смешарио_(iOS)-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Смешарио_(iOS)-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Смешарио-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Смешарио-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A70E3F74120AFB0E005AC44F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A70E402F120B14FD005AC44F /* fire1D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire1D.png; path = Resources/fire1D.png; sourceTree = "<group>"; };
 		A70E4031120B14FD005AC44F /* fire2D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire2D.png; path = Resources/fire2D.png; sourceTree = "<group>"; };
@@ -775,7 +775,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Смешарио_(iOS).app */,
+				1D6058910D05DD3D006BFB54 /* Смешарио.app */,
 				8B0D3109183661E5005202BD /* libBox2D.a */,
 			);
 			name = Products;
@@ -798,7 +798,7 @@
 			isa = PBXGroup;
 			children = (
 				8B0D30FB1836611E005202BD /* Box2D */,
-				32CA4F630368D1EE00C91783 /* Смешарио_(iOS)_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Смешарио_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -829,7 +829,7 @@
 				043EC9DE23548351007001F0 /* joyup.png */,
 				043EC9E123548351007001F0 /* joyupd.png */,
 				A7136798139D3C550082293B /* Application.cci */,
-				8D1107310486CEB800E47090 /* Смешарио_(iOS)-Info.plist */,
+				8D1107310486CEB800E47090 /* Смешарио-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1502,9 +1502,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Смешарио_(iOS) */ = {
+		1D6058900D05DD3D006BFB54 /* Смешарио */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Смешарио_(iOS)" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Смешарио" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -1514,9 +1514,9 @@
 			);
 			dependencies = (
 			);
-			name = Смешарио_(iOS);
-			productName = Смешарио_(iOS);
-			productReference = 1D6058910D05DD3D006BFB54 /* Смешарио_(iOS).app */;
+			name = Смешарио;
+			productName = Смешарио;
+			productReference = 1D6058910D05DD3D006BFB54 /* Смешарио.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8B0D3108183661E5005202BD /* Box2D */ = {
@@ -1560,7 +1560,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Смешарио_(iOS)" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Смешарио" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1575,7 +1575,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Смешарио_(iOS) */,
+				1D6058900D05DD3D006BFB54 /* Смешарио */,
 				8B0D3108183661E5005202BD /* Box2D */,
 			);
 		};
@@ -1852,7 +1852,7 @@
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Смешарио_(iOS)_Prefix.pch;
+				GCC_PREFIX_HEADER = Смешарио_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"GLES_SILENCE_DEPRECATION=1",
@@ -1860,7 +1860,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
-				INFOPLIST_FILE = "Смешарио_(iOS)-Info.plist";
+				INFOPLIST_FILE = "Смешарио-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1868,7 +1868,7 @@
 				);
 				OTHER_CFLAGS = "-Wno-shift-negative-value";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickteam.runtime;
-				PRODUCT_NAME = Смешарио_(iOS);
+				PRODUCT_NAME = Смешарио;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1894,14 +1894,14 @@
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Смешарио_(iOS)_Prefix.pch;
+				GCC_PREFIX_HEADER = Смешарио_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"GLES_SILENCE_DEPRECATION=1",
 				);
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
-				INFOPLIST_FILE = "Смешарио_(iOS)-Info.plist";
+				INFOPLIST_FILE = "Смешарио-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1909,7 +1909,7 @@
 				);
 				OTHER_CFLAGS = "-Wno-shift-negative-value";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickteam.runtime;
-				PRODUCT_NAME = Смешарио_(iOS);
+				PRODUCT_NAME = Смешарио;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2104,7 +2104,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Смешарио_(iOS)" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Смешарио" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -2122,7 +2122,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Смешарио_(iOS)" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Смешарио" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
