@@ -22,7 +22,7 @@ jobs:
       - name: Build Box2D first
         run: |
           xcodebuild \
-            -project Smeshario_(iOS).xcodeproj \
+            -project Smeshario_iOS.xcodeproj \
             -target Box2D \
             -configuration Release \
             -destination 'generic/platform=iOS' \
@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: |
           xcodebuild \
-            -project Smeshario_(iOS).xcodeproj \
+            -project Smeshario_iOS.xcodeproj \
             -configuration Release \
             -destination 'generic/platform=iOS' \
             CODE_SIGNING_ALLOWED=NO \
@@ -42,7 +42,7 @@ jobs:
       - name: Create IPA
         run: |
           mkdir Payload
-          cp -R build/Release-iphoneos/Smeshario_(iOS).app Payload
+          cp -R build/Release-iphoneos/Smeshario_iOS.app Payload
           zip -r "Смешарио (iOS).ipa" Payload
 
       - name: Upload IPA
