@@ -32,34 +32,21 @@ jobs:
       - name: Build
         run: |
           xcodebuild \
-            -project Smeshario_demo_for_ios.xcodeproj \
+            -project "Смешарио (iOS).xcodeproj" \
             -configuration Release \
             -destination 'generic/platform=iOS' \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             build
       
-      - name: Show build output
-        run: |
-          echo "=== Build directory ==="
-          find build -maxdepth 3
-      
-          echo
-          echo "=== Looking for .app ==="
-          find . -name "*.app"
-      
-          echo
-          echo "=== Looking for .ipa ==="
-          find . -name "*.ipa"
-
       - name: Create IPA
         run: |
           mkdir Payload
-          cp -R build/Release-iphoneos/smeshario_demo_for_ios.app Payload
-          zip -r smeshario_demo_for_ios.ipa Payload
+          cp -R "build/Release-iphoneos/Смешарио (iOS).app" Payload
+          zip -r "Смешарио (iOS).ipa" Payload
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: Smeshario-IPA
-          path: smeshario_demo_for_ios.ipa
+          path: "Смешарио (iOS).ipa"
