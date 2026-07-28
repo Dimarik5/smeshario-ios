@@ -51,3 +51,15 @@ jobs:
           echo
           echo "=== Looking for .ipa ==="
           find . -name "*.ipa"
+
+      - name: Create IPA
+        run: |
+          mkdir Payload
+          cp -R build/Release-iphoneos/smeshario_demo_for_ios.app Payload
+          zip -r smeshario_demo_for_ios.ipa Payload
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: Smeshario-IPA
+          path: smeshario_demo_for_ios.ipa
