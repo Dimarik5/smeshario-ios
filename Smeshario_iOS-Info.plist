@@ -6,6 +6,10 @@
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
 	<string>Smeshario_iOS</string>
+	<key>UIAppFonts</key>
+	<array>
+	    <string>Smeshariki2007Fixed-Regular.ttf</string>
+	</array>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
