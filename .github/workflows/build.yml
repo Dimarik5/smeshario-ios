@@ -22,7 +22,7 @@ jobs:
       - name: Build Box2D first
         run: |
           xcodebuild \
-            -project smeshario_demo_for_ios.xcodeproj \
+            -project "Смешарио (iOS).xcodeproj" \
             -target Box2D \
             -configuration Release \
             -destination 'generic/platform=iOS' \
