@@ -22,7 +22,7 @@ jobs:
       - name: Find Box2D
         run: |
           find . -iname "*box2d*"
-      
-      - name: Find Box2D references
+            
+      - name: Find linker flag
         run: |
-          grep -R "Box2D" .
+          grep -R -- "-lBox2D" .
