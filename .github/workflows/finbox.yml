@@ -1,3 +1,24 @@
-- name: Find Box2D
-  run: |
-    find . -iname "*box2d*"
+name: find box iOS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Xcode version
+        run: xcodebuild -version
+
+      - name: Find projects
+        run: |
+          find . -name "*.xcodeproj"
+          find . -name "*.xcworkspace"
+      
+      - name: Find Box2D
+        run: |
+          find . -iname "*box2d*"
