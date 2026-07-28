@@ -1,0 +1,30 @@
+name: Build iOS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Xcode version
+        run: xcodebuild -version
+
+      - name: Find projects
+        run: |
+          find . -name "*.xcodeproj"
+          find . -name "*.xcworkspace"
+
+      - name: Build
+        run: |
+          xcodebuild \
+            -project Smeshario.xcodeproj \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            clean build
