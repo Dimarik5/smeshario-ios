@@ -22,3 +22,7 @@ jobs:
       - name: Find Box2D
         run: |
           find . -iname "*box2d*"
+      
+      - name: Find Box2D references
+        run: |
+          grep -R "Box2D" .
