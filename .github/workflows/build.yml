@@ -41,7 +41,7 @@ jobs:
       
       - name: Copy font
         run: |
-          cp Resources/Fonts/Smeshariki2007Fixed-Regular.ttf build/Release-iphoneos/smeshario_demo_for_ios.app/
+          cp Resources/Fonts/Smeshariki2007Fixed-Regular.ttf build/Release-iphoneos/Smeshario_iOS.app/
 
       - name: Create IPA
         run: |
