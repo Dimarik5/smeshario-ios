@@ -137,5 +137,11 @@
 ## 🖼️ Геймплей
 
 <img alt="Main Menu" src="https://github.com/user-attachments/assets/b553cc70-db90-4fdb-8f02-165743339897" />
+
 <img alt="Gameplay" src="https://github.com/user-attachments/assets/3316546e-c474-4115-8f90-ed9e70c401db" />
-https://github.com/user-attachments/assets/507db35e-448a-4e8c-aa13-3f260bcbe4e5
+
+Встроенное видео:
+<video alt="Gameplay Video" src="https://github.com/user-attachments/assets/507db35e-448a-4e8c-aa13-3f260bcbe4e5" />
+
+Если встроенное видео не работает:
+[Видео на Яндекс Диске](https://disk.yandex.ru/i/ko0JzPOw1KX7bg) | [Видео на Google Диске](https://drive.google.com/file/d/1UYtzVF5RoCtoFlzIfxmalw5hcDjuO5NG/view?usp=sharing)
