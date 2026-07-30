@@ -3,15 +3,16 @@
 >
 > Это небольшой эксперимент, показывающий, что полноценное iOS-приложение можно собрать даже без собственного Mac, используя только экспорт Xcode-проекта и GitHub Actions.
 
+> [!IMPORTANT]
+> **Игра создана в учебных, исключительно некоммерческих и исследовательских целях.**
+>
+> **Все права на используемых персонажей, стиль рисовки, музыку и прочую интеллектуальную собственность принадлежат их законным правообладателям (ГК "Рики").**
+
 <p align="center">
   <img src="https://github.com/Dimarik5/smeshario-ios/blob/main/Smeshario_iOS/Images.xcassets/AppIcon.appiconset/Icon-128.png" alt="Smeshario Logo" width="128" />
 </p>
 
 <h1 align="center">Смешарио</h1>
-
-<p align="center">
-  <b>Скромный учебный проект платформера, который неожиданно превратился в эксперимент по сборке iOS-приложения без собственного Mac.</b>
-</p>
 
 ![iOS](https://img.shields.io/badge/iOS-Платформа-000000?logo=apple&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Сборка-blue?logo=githubactions&logoColor=white)
