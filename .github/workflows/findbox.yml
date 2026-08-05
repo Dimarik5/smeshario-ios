@@ -1,0 +1,32 @@
+name: find box iOS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Xcode version
+        run: xcodebuild -version
+
+      - name: Find projects
+        run: |
+          find . -name "*.xcodeproj"
+          find . -name "*.xcworkspace"
+      
+      - name: Find Box2D references everywhere
+        run: |
+          find . -type f | grep -v .git | xargs grep -n "Box2D"
+      
+      - name: Find xcconfig
+        run: |
+          find . -name "*.xcconfig"
+      
+      - name: Check Box2D cpp in project
+        run: |
+          grep -n "b2World.cpp\|b2Body.cpp\|Box2D.cpp" smeshario_demo_for_ios.xcodeproj/project.pbxproj

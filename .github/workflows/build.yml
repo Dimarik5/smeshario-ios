@@ -47,10 +47,10 @@ jobs:
         run: |
           mkdir Payload
           cp -R build/Release-iphoneos/Smeshario_iOS.app Payload
-          zip -r Smeshario_iOS.ipa Payload
+          zip -r "Смешарио (iOS).ipa" Payload
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: Smeshario-IPA
-          path: Smeshario_iOS.ipa
+          path: "Смешарио (iOS).ipa"
