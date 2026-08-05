@@ -138,7 +138,8 @@
 
 > [!NOTE]
 > Скриншоты и запись экрана были сделаны на версии **v1.0.1**, поэтому могут иметь небольшие различия с актуальной версией.
-> Протестировано на iPhone 12 Pro под управлением iOS 27 Developer Beta 4 (24A5390f).
+>
+>  Протестировано на iPhone 12 Pro под управлением iOS 27 Developer Beta 4 (24A5390f).
 
 <img alt="Main Menu" src="https://github.com/user-attachments/assets/b553cc70-db90-4fdb-8f02-165743339897" />
 
