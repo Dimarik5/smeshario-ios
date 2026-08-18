@@ -93,7 +93,7 @@
 
 1. Разработка в Clickteam Fusion
 2. Сборка Xcode-проекта в Clickteam Fusion
-3. Создание репозитория из полученного архива на GitHub
+3. Создание репозитория на GitHub и загрузка в него полученного архива
 4. Загрузка недостающих файлов ([шрифт](https://github.com/Dimarik5/smeshario-ios/blob/main/Resources/Fonts/Smeshariki2007Fixed-Regular.ttf)) и исправление [Info.plist](https://github.com/Dimarik5/smeshario-ios/blob/main/Smeshario_iOS-Info.plist) (для нормального названия приложения и для внедрения шрифта)
 5. Написание файла [build.yml](https://github.com/Dimarik5/smeshario-ios/edit/main/.github/workflows/build.yml) с командами по сборке проекта
 6. Сборка .ipa файла через GitHub Actions
