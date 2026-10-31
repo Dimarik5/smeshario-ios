@@ -1867,7 +1867,7 @@
 					"$(SRCROOT)",
 				);
 				OTHER_CFLAGS = "-Wno-shift-negative-value";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clickteam.runtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickteam.smeshario;
 				PRODUCT_NAME = Smeshario_iOS;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1908,7 +1908,7 @@
 					"$(SRCROOT)",
 				);
 				OTHER_CFLAGS = "-Wno-shift-negative-value";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clickteam.runtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickteam.smeshario;
 				PRODUCT_NAME = Smeshario_iOS;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
